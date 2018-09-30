@@ -1,0 +1,177 @@
+@media only screen and (min-width: 1120px) {
+
+.links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+.container{
+	top: 5%;
+}
+} 
+
+@media only screen and (max-width: 1400px) {
+
+.container{
+	top: 25%;
+}
+}
+
+ 
+
+@font-face {
+	font-family: 'iosevka';
+	src:  url('iosevka-extrabold.ttf') format('ttf'),
+	local('Iosevka-ExtraBold');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'iosevka';
+	src:  url('iosevka-light.ttf') format('ttf'),
+	local('Iosevka-Light');
+	font-style: normal;
+	font-weight: lighter;
+
+}
+
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	background-color: #141516;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+* {
+	font-family: 'iosevka';
+	font-weight: lighter;
+}
+
+/*You may find it weird but i find it more useful when it is close to the top.*/
+.container {
+	top : 15px;
+	position: relative;
+	padding: 0 20px 0 20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+
+.search_form {
+
+  	min-width: 18rem;
+}
+
+#header {
+	-webkit-box-shadow: 1px 1px 10px 0px #000;
+	-moz-box-shadow: 1px 1px 10px 0px #000;
+	box-shadow: 1px 1px 10px 0px #000;
+	background-color: #282a36;
+    opacity: 0.95;
+	margin: 4px;
+	padding: 8px;
+	border: 5px solid #282a36;
+}
+
+
+#links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.linksbox {
+	-webkit-box-shadow: 1px 1px 5px 0px #000;
+	-moz-box-shadow: 1px 1px 5px 0px #000;
+	box-shadow: 1px 1px 5px 0px #000;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	margin: 25px;
+	padding: 8px 8px 8px 8px;
+	background-color: #282a36;
+    opacity: 0.95;
+	border: 10px solid #282a36;
+}
+
+.linksbox h3 {
+	padding-bottom: 5px;
+}
+
+.linksbox a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.linksbox a.cyan:hover {
+	color: #4babdb;
+	text-decoration: underline;
+}
+
+.linksbox a.red:hover {
+	color: #ff5c57;
+	text-decoration: underline;
+}
+
+h3 {
+	display: inline;
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.neonblue.hover{
+	text-shadow: black 1em 1em 2em;
+}
+.neonblue {
+
+	color: #dcdccc;
+	padding: 0;
+}
+
+.blue {
+	color: #dcdccc;
+	padding: 0;
+}
+
+.green {
+	font-weight: bold;
+	padding: 0;
+	color: #f95c5c;
+}
+
+.pink {
+	padding: 0;
+	color: #dcdccc;
+}
+
+.neonred {
+	padding: 0;
+	color: #dcdccc;
+}
+
+form {
+	display: inline;
+}
+
+input 	{
+	display: inline;
+	background: none;
+	display: inline;
+	border: none;
+	color: #FFF;
+	width: 70%;
+	font-size: 14px;
+}
